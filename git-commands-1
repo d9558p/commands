@@ -1,0 +1,74 @@
+2  apt-get update -y
+    3  clear
+    4  apt-get install git -y
+    5  clear
+    6  mkdir git
+    7  cd git/
+    8  pwd
+    9  git init
+   10  ls -a
+   11  nano 1.txt
+   12  git status
+   13  git add 1.txt
+   14  git status
+   15  git commit -m "commiting 1.txt file"
+   16  git config --global --edit
+   17  git commit --amend --reset-author
+   18  git status
+   19  git log
+   20  git remote add origin https://github.com/d9558p/gitpractice.git
+   21  git push -u origin master
+   22  clear
+   23  apt-get update -y
+   24  git --version
+   25  mkdir git && cd git
+   26  cd ..
+   27  ls
+   28  cd git
+   29  git init
+   30  nano 1.txt
+   31  git status
+   32  nano .gitignore
+   33  git status
+   34  git add 1.txt
+   35  git commit -m "commiting the 1.txtfile"
+   36  git status
+   37  ls
+   38  rm 1.txt
+   39  ls
+   40  git status
+   41  git restore 1.txt
+   42  ls
+   43  git status
+   44  git rm --cached 1.txt
+   45  git status
+   46  rm 1.txt
+   47  ls
+   48  git status
+   49  nano 1.txt
+   50  git commit -m "kaakavvc"
+   51  git status
+   52  git add .
+   53  git commit -m "all files commited"
+   54  git status
+   55  git log
+   56  git remote add origin https://github.com/d9558p/git-practice.git
+   57  git push -u origin master
+   58  git branch
+   59  git branch develop
+   60  git branch
+   61  git checkout develop
+   62  git branch
+   63  ls
+   64  nano 1.txt
+   65  git status
+   66  git add 1.txt
+   67  git commit -m "1.txt has been modified in develop branch"
+   68  git status
+   69  git checkout master
+   70  git merge develop
+   71  ls
+   72  cat 1.txt
+   73  git push -u origin master
+   74  git push -u origin develop
+   75  history
